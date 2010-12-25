@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 3
 
 Summary:    Provides fixtures for DBIx-Class-based scripts
 License:    GPL+ or Artistic
@@ -26,6 +26,7 @@ BuildRequires: perl(File::Copy::Recursive)
 BuildRequires: perl(Hash::Merge)
 BuildRequires: perl(JSON::Syck)
 BuildRequires: perl(Path::Class)
+BuildRequires: perl(SQL::Abstract)
 BuildRequires: perl(Test::More)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
