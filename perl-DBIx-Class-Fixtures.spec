@@ -1,15 +1,15 @@
 %define upstream_name    DBIx-Class-Fixtures
-%define upstream_version 1.001010
+%define upstream_version 1.001039
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	7
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Provides fixtures for DBIx-Class-based scripts
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/DBIx/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/dbsrgits/DBIx-Class-Fixtures
+Source0:	https://cpan.metacpan.org/authors/id/S/SK/SKAUFMAN/DBIx-Class-Fixtures-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
